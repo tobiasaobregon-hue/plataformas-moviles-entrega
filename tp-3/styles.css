@@ -35,11 +35,11 @@ p:not([id]) {
 
 
 p.fuente {
-    color: #000;
+    color: red;
 }
 
 
 .complicado {
     font-weight: bold;
-    color: #C62;
+    color: whait;
 }
