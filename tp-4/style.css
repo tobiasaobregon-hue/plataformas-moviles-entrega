@@ -49,17 +49,14 @@
     }
 }
 
-
+@media (resolution: 2dppx) {
+    article {
+        background-color: #667;
+    }
+}
 @media screen and (min-width: 200px) and (max-width: 400px) {
     img {
         height: 400px;
         object-fit: cover;
-    }
-}
-
-
-@media (resolution: 2dppx) {
-    article {
-        background-color: #667;
     }
 }
