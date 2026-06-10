@@ -24,6 +24,17 @@
 .accordion-button:hover {
     transform: scale(1.02);
 }
+  @media (max-width: 768px) {
+    .accordion {
+        display: none;
+    }
+}
+  @media (max-width: 768px) {
+    .btn-enviar {
+        display: block;
+        margin: 20px auto;
+    }
+}
 </styles>
 </head>
 <body>
@@ -97,9 +108,10 @@
       <div class="col-md-3 mb-3">
         <div class="card h-100">
           <div class="card-body" style="background-color:gray; height: 200px; border: solid 10px #ccc;">
-         <h2>Carta</h2>
+         </div>
+          <h2>Carta</h2>
             <p>Algo de texto en su tarjeta</p>
-          </div>
+         
         </div>
       </div>
       </div>
@@ -197,7 +209,7 @@ viverra velit. Vivamus condimentum feugiat luctus.
             </div>
         </div>
 <hr>
- <div class="text-center mt-4">
+ <div class="text-center">
     <button type="submit" class="btn btn-primary">
         Enviar
     </button>
